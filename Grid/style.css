@@ -1,0 +1,33 @@
+body{
+    background-color: aquamarine;
+}
+.sec1 {
+    background-color: dodgerblue;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.john {
+    grid-column: 1/2;
+    background-color: fuchsia;
+    grid-row: 1/2;
+}
+footer {
+background-color: blueviolet;
+    grid-column: 1/5;
+}
+.example {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.example header {
+    grid-column: 2/-1;
+
+}
+.stuff{
+    grid-column: 2;
+}
+.example footer {
+    grid-column: 1/-1;
+}
